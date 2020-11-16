@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Background color for entire webpage */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Header display on top of webpage with links and company logo */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.companyName {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.seo {
+    color: #d9dcd6;
+}
+
+/* Navigation bar links formatted on the right side of the header */
+.navBar {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.navBarList {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.navBarLinks {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Main cover photo for website underneath header */
+.coverPicture {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    /* background-image: url("../images/digital-marketing-meeting.jpg"); */
+    /* Commented out to add alt attribute to to img tag in HTML */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Picture and text formatting for all three articles in main body */
+.seoPic {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+.ormPic {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+}
+
+.smmPic {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.articleText {
+    font-size: 16px;
+}
+
+.articleHead {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Search engine optimization article container formatting */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Online reputation management article container formatting */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Social media marketing article container formatting */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Benefit sidebar text and container formatiing  */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.sideBarText {
+    font-size: 16px;
+}
+
+.asideHeader {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+
+/* Benefit side bar image formatting */
+.benefit-lead-img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand-img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost-img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+
+/* Footer with copyright at bottom of webpage */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
